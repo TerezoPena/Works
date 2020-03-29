@@ -13,7 +13,7 @@ public class Test{
     private JComboBox cbox = new JComboBox<String>();
     private GridBagConstraints c = new GridBagConstraints();
     private JTextField jt = new JTextField("    Enter Family    ");
-    
+    private int num;
 
     public void spaceboxes(int one, int two,int three,int four){
         c.insets = new Insets(one,two,three,four);
